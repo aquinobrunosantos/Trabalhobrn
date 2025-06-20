@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+body{background-image:url('Imagens/borcelle.png');}
+a{text-decoration: none;
+    font-size:20px ; 
+     color: rgb(240, 159, 132);
+     display: inline-block;
+     text-align: center;
+     margin-left: 15px;
+     background-color: rgba(222, 184, 135, 0.582);
+     border-radius:15px ;
+     padding: 10px;
+     width: 80px;
+      height: 20px;  } 
+footer{background-color: transparent;
+        position: absolute; 
+        left: 20%;    
+        top: 88%;}
+ .cap{position: absolute;
+        top: 8px;
+        left: 42%;
+        width: 250px;
+        height: 150px;}       
+ 
+.estetica p{position: absolute;
+            top: 198px;
+            left: 45%;
+            border: 3px solid #716050;  
+            padding: 10px; 
+            width: 200px; 
+            text-align: center; 
+            border-top: none ; 
+            border-radius: 10px; 
+            font-size: 18px;   
+            box-shadow:inset  0px 0px  10px #716050, 0px 0px 10px #716050 ; }       
+            a:hover{background-color: rgb(228, 182, 98);
+                border-radius: 10px; 
+                color: black;  
+                 padding: 10px;  
+                 transform: scale(1.2);
+                  transition: 1s transform linear;  }
+           
+
+            h1{position: absolute;
+                top: 132px;
+                left: 45%;
+                font-size: 40px;  
+                color: #716050;
+                text-shadow: 0px 0px 3px #716050, 0px 0px 3px #716050; }  
+    
+.th1{width: 200px;}
+.gota{position: absolute;
+    top: 246px;
+    left: 27%;}
+.casa{position: absolute;
+    top: 252px;
+    right: 17%;}   
+.conforto{text-align: center;
+            position: absolute;
+            top: 294px; 
+            left: 63%; 
+            color:#716050;
+            font-size: 25px;
+            font-weight: 700;}
+
+.conf{position: relative;
+        top:-20px;}          
+
+
+.neutro{position: absolute;
+    top: 295px;
+    left: 28%;
+    color:#716050;
+    font-size: 25px;
+    font-weight: 700;}     
+ 
+ .n{text-align: center;
+    position: absolute;
+    top: 25px; 
+    left: 34%; }   
+
+ .texto{position: absolute;
+        top: 55%;  
+        color: #716050; 
+        font-weight:800;
+        font-size: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }   
+ .f12{position: absolute;
+    right:-5px;
+    top:54%; 
+    width: 250px;   }    
+ .bg{position: absolute;
+     top:0px; 
+     width: 250px;     }      

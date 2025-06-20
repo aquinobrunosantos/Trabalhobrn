@@ -1,0 +1,83 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'romance';
+    src: url(Fonts/Times\ New\ Romance.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'inspirate';
+    src: url(Fonts/iInspirationalDoctor.ttf) format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Changa+One:ital@0;1&family=Chango&family=Freckle+Face&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&display=swap');
+
+
+
+body{background-image: url('Imagens/cosmetico.png');}
+
+a{text-decoration: none;
+    font-size:20px ; 
+     color: rgb(240, 159, 132);
+     display: inline-block;
+     text-align: center;
+     margin-left: 15px;
+     background-color: rgba(222, 184, 135, 0.582);
+     border-radius:15px ;
+     padding: 10px;
+     width: 80px;
+        height: 30px;} 
+     footer{background-color: transparent;
+        position: absolute; 
+        left: 20%;    
+        top: 88%;}
+        .bg{position: absolute;
+            top: 408px;
+            left: -1px;
+            width: 200px; 
+            height: 350px; }      
+
+.tp{position:absolute;
+    left: 950px;
+    margin: -5px;}
+  
+
+a:hover{background-color: rgb(228, 182, 98);
+    border-radius: 10px; 
+    color: black;  
+     padding: 10px;  
+     transform: scale(1.2);
+      transition: 1s transform linear;   }
+main{max-width: 1080px;
+     min-width: 360px;   }      
+
+     
+div{max-width: 600px;
+    min-width: 360px;
+    margin: auto;
+    position: absolute;
+    top:40%;
+    left: 50%;    
+    transform: translate(-50%,-40%);
+    background-image:linear-gradient(to bottom, #cfc1a4cc, transparent);
+    border-radius:8px;
+    padding: 10px;}  
+
+    div p{text-align: justify;
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.8em;
+    font-family:  "Libre Baskerville";
+    }       
+
+ h1{position: absolute;
+    top: -3%;
+    left: 43%;
+    font-size: 80px;
+    font-family: 'inspirate';
+    color:rgb(165, 131, 68) ;
+    text-shadow: 2px 2px 2px black;}   
+    
+    
+    
+    
+    /*#d4bd92cc*/

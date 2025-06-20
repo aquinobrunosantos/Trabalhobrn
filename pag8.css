@@ -1,0 +1,219 @@
+@charset "UTF-8";
+body {
+    background-color: rgb(255, 234, 209);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+  
+    main{display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;}
+
+
+ 
+
+
+        a {
+            text-decoration: none;
+            font-size: 20px;
+            color: rgb(240, 159, 132);
+            display: inline-block;
+            margin: 10px;
+            background-color: rgba(222, 184, 135, 0.582);
+            border-radius: 15px;
+            padding: 10px;
+            width: 100px;
+            height: 30px;}
+          
+          a:hover {
+            background-color: rgb(228, 182, 98);
+            color: black;
+            transform: scale(1.2);
+            transition: 1s transform linear;
+          }
+          
+          footer {
+            background-color: transparent;
+            text-align: center;
+            padding: 20px;
+          }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+a{text-decoration: none;
+    font-size:20px ; 
+     color: rgb(240, 159, 132);        
+     display: inline-block;
+     text-align: center;
+     margin-left: 15px;
+     background-color: rgba(222, 184, 135, 0.582);
+     border-radius:15px ;
+     padding: 10px;
+     width: 80px;} 
+footer{background-color: transparent;
+        position: absolute; 
+        left: 20%;    
+        top: 90%;}
+a:hover{background-color: rgb(228, 182, 98);
+            border-radius: 10px; 
+            color: black;  
+             padding: 10px;  
+             transform: scale(1.2); 
+              transition: 1s transform linear;   }
+
+.galeria{ display: flex;
+         }   
+.galeria .t1, .t2, .t3, .t4, .t5, .t6 {width: 300px;
+    height: 280px;  
+    display: inline-block;
+  
+    border: 1px blanchedalmond solid;
+    text-align: center; 
+    border-radius:10px ;  
+    font-weight: 800;  
+    font-size: 20px;   
+    padding-left: 10px;   
+     box-shadow:inset 0 0 15px blanchedalmond, 0 0 15px  ;                        
+}
+
+.d4 p  {position: relative;
+    top:30%;
+  left: -2%;
+  font-weight: 600;    
+  text-shadow: 1px 1px 1px black; }
+
+ .d5 p  {position: relative;
+    top:30%;
+  left: -2%;
+  font-weight: 600;    
+  text-shadow: 1px 1px 1px black; }
+ 
+ .d6 p {position: relative;
+                top:30%;
+              left: -2%;
+        font-weight: 600;    
+        text-shadow: 1px 1px 1px black;    }
+
+
+.t1{position: absolute;
+    top: 2%;
+    left: 14%;
+    }
+.t2{position: absolute;
+    top: 2%;
+    left: 38%;
+    margin-left: 30px;}
+    .t3{position: absolute;
+        top: 2%;
+        left: 63%;
+        margin-left: 40px;}
+    
+.t4{position: absolute;
+    top: 45%;
+    left: 14%;}                              
+
+.t5{position: absolute;
+    top: 45%;
+    left: 38%;
+    margin-left: 30px;}
+
+.t6{position: absolute;
+        top: 45%;
+        left: 60%;
+        margin-left: 73px;  
+        width: 301px;}   
+.t6 img {width: 295px;
+           height:248px ; }
+ img{width: 300px;
+    height: 250px;  }                                              
+ 
+ 
+.t1:hover{background-color: rgba(243, 203, 139, 0.842);}
+.t2:hover{background-color: rgba(243, 203, 139, 0.842);} 
+.t3:hover{background-color: rgba(243, 203, 139, 0.842);} 
+.t4:hover{background-color: rgba(243, 203, 139, 0.842);} 
+.t5:hover{background-color: rgba(243, 203, 139, 0.842);}
+.t6:hover{background-color: rgba(243, 203, 139, 0.842);}
+ */
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    /*                         
+ .p1, .p2, .p3, .p4, .p5, .p6{border: 1px solid black;
+                               width: 200px;
+                               height: 80px;  
+                               border-radius: 10px; }
+                                             
+                                             
+                                             
+                               .p1{position: absolute;
+                                top: 50%;
+                                left: 17%;
+                                }
+                            .p2{position: absolute;
+                                top: 10%;
+                                left: 38%;
+                                margin-left: 20px;}
+                                .p3{position: absolute;
+                                    top: 10%;
+                                    left: 59%;
+                                    margin-left: 40px;}
+                                
+                            .p4{position: absolute;
+                                top: 50%;
+                                left: 17%;}                              
+                            
+                            .p5{position: absolute;
+                                top: 50%;
+                                left: 38%;
+                                margin-left: 20px;}
+                            
+                            .p6{position: absolute;
+                                    top: 20%;
+                                    left: 59%;
+                                    margin-left: 40px;    }   
+                                    */
+                                                                      
+                                             
+                                             
+                                             
+                                             
+                                             
+                                             
+                                             
+                                             
+                                             
+                                             
+                                             
+                                             
+                                             
+                                             
+                                             
+                                             
+                                             
+ 
