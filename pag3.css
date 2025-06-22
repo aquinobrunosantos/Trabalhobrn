@@ -4,9 +4,10 @@
     src: url(Fonts/Palisade.otf) format('opentype');
 }
 
-*{margin: 0;
-  padding: 0; 
-   }
+html, body {
+    height: 100%;
+    margin: 0;
+  }
 
 main{width: 100vw;
     height:100vh; 
