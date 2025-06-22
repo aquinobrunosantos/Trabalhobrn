@@ -4,13 +4,10 @@
     src: url(Fonts/Palisade.otf) format('opentype');
 }
 
-html, body {
-    height: 100%;
-    margin: 0;
-  }
 
-main{width: 100vw;
-    height:100vh; 
+
+main{max-width: 100%;
+    height: auto;
     display:flex ;
      justify-content: space-around;  
     align-items: center;   
@@ -18,7 +15,13 @@ main{width: 100vw;
     gap:50px;}
 
 
-body{background-image: url('Imagens/Captura2.png')}
+body{
+  background-image:url('Imagens/Captura2.png');
+  background-size: cover;
+  background-position: center;
+}
+
+
 a{text-decoration: none;
     font-size:20px ; 
      color: rgb(240, 159, 132);
@@ -31,11 +34,18 @@ a{text-decoration: none;
      height: 20px;  
      margin-left: 5px;
      margin-right: 5px;    
+  
+  
     } 
      
      footer{background-color: transparent;
         text-align: center;
         padding: 5px;
+      
+        
+        justify-content: center;
+        margin: 5px;
+        
       }
         
     a:hover{background-color: rgb(228, 182, 98);
@@ -66,8 +76,24 @@ li{text-shadow: 1px 1px  black;}
 
 ul{margin-bottom: 80px;}
 
+@media (max-width: 768px) {
+  h1 {
+    font-size: 48px;
+  }
 
-@media screen and (max-width:1000px;) and (min-width:360px;)
-    {
-            li{font-size:18px ;}
+  .u2 {
+    font-size: 1.2em;
+    margin-left: 20px;
+  }
+
+  a {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
