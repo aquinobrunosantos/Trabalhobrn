@@ -34,19 +34,14 @@ footer a {
         text-align: center;
       }
       
-@media (max-width: 600px) {
+      @media (max-width: 600px) {
         footer {
-          flex-direction: row;         /* mantém os links lado a lado */
+          display: flex;
+          flex-wrap: wrap;
           justify-content: center;
+          gap: 10px;
+          padding: 10px;}
         }
-      
-        footer a {
-          width: 45%;                  /* força dois por linha */
-          margin: 5px 2.5%;
-        }
-      }
-      
-    
       
       
 
