@@ -1,17 +1,18 @@
 
 @charset "UTF-8";
+*{margin: 0;
+    padding: 0;  }
 
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Bebas+Neue&family=Changa+One:ital@0;1&family=Chango&family=Freckle+Face&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&family=Playwrite+HU:wght@100..400&family=Pochaevsk&display=swap');
 
 
 body{background-image: url('Imagens/what.jpeg');} /*rgba(243, 225, 196, 0.63)*/
-h1{position: absolute;
-    left: 33%;
-    top: 35%;
+h1{
     font-size: 80px;
     font-family: "Montserrat", sans-serif;
     color: #f7a757; 
-    text-shadow:  2px 2px 2px black ;}
+    text-shadow:  2px 2px 2px black;
+    margin-bottom: 10px;}
  
 
  a:hover{background-color: #e4b662;
@@ -31,58 +32,51 @@ h1{position: absolute;
     padding: 10px;
     width: 80px;
     height: 20px;}           
-.im{
-    position: absolute; 
-    top: 0px;
-    left: 2px; }
+
     
-.cap{position: absolute;
-        left: 29%;
-        top: 5%;  
+.cap{
       animation: flutuação 13s
       ease-in-out infinite ; 
          }
 @keyframes flutuação{0%, 100%{transform: translateY(0px);} 
                     50%{transform: translatey(-88px);}   }
 
-
-
-.tp{position:absolute;
-    left: 950px;
-    margin: -5px;}
-
-
-.bg{position: absolute;
-    top: 390px;
-    left:-4;    }
-
-footer{background-color: transparent;
-       position: absolute; 
-       left: 14%;    
-       top: 88%;}
+footer{}
 
          
 .estetica{width:280px;
          height: 50px;
           border: 1px solid rgb(228, 157, 5);  
-          position: absolute; 
-          top: 58%;
-          left: 39%;
           text-align: center;   
            border-radius: 20px;   
           box-shadow: 0 0 6px #be8812,
                       0 0 6px #be8812, 
                       0 0 6px #be8812, 
                       0 0 6px #be8812; 
-         background-color: #be881233;     }
+         background-color: #be881233;   
+         display:flex ;
+         justify-content: center;  
+        align-items: center;      
+        margin-bottom: 10px;    
+    }
+              
 
  .estetica p {font-size: 30px;
-               margin-top: 5px;
               color: #f7a757;   }   
-main{max-width: 1300px;
-     min-width: 360px;   }
+main{width: 100vw;
+    height:100vh; 
+    display:flex ;
+     justify-content: space-around;  
+    align-items: center;   
+    flex-direction: column;
+    }
 
-
+.boss{ display:flex ;
+   
+   align-items: center;   
+   flex-direction: column;
+   margin-bottom:210px; 
+  }
 
 
    /*#ffead1*/

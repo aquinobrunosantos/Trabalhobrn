@@ -4,6 +4,17 @@
     src: url(Fonts/Palisade.otf) format('opentype');
 }
 
+*{margin: 0;
+  padding: 0; 
+   }
+
+main{width: 100vw;
+    height:100vh; 
+    display:flex ;
+     justify-content: space-around;  
+    align-items: center;   
+    flex-direction: column;
+    gap:50px;}
 
 
 body{background-image: url('Imagens/Captura2.png')}
@@ -12,50 +23,50 @@ a{text-decoration: none;
      color: rgb(240, 159, 132);
      display: inline-block;
      text-align: center;
-     margin-left: 15px;
      background-color: rgba(222, 184, 135, 0.582);
      border-radius:15px ;
      padding: 10px;
      width: 80px;
-     height: 20px;   } 
+     height: 20px;  
+     margin-left: 5px;
+     margin-right: 5px;    
+    } 
+     
      footer{background-color: transparent;
-        position: absolute; 
-        right:25%;    
-        top: 88%;
-        
         text-align: center;
-        }
-        a:hover{background-color: rgb(228, 182, 98);
+        padding: 5px;
+      }
+        
+    a:hover{background-color: rgb(228, 182, 98);
             border-radius: 10px; 
             color: black;  
              padding: 10px;  
              transform: scale(1.2);
               transition: 1s transform linear;   }
-  .bor{position: absolute;
-       top:1%;
-       left: 94%; 
-       width: 90px;  }    
-   .prev{position: absolute;
-         top: 50%; 
-         left:76% ; }    
-    .u2{position: absolute;
-        top: 22%;
-        left: 19%;
+  
+     
+    .u2{
         line-height: 2em;
         font-size:1.7em;
         text-align: center;
         text-align: justify;
         color: #c2933b;
         font-weight: 700;
-        font-family: "Changa One";}
- h1{position: absolute;
-       top: 2%;
-       left: 41%;  
-       font-size:79px;
+        font-family: "Changa One";
+        margin-left: 50px;}
+ h1{
+       font-size:82px;
        font-family: 'milks'; 
        color: #c2933b; 
-       text-shadow: 2px 2px 2px black;}    
+       text-shadow: 2px 2px 2px black;
+        }    
        
 li{text-shadow: 1px 1px  black;}
 
+ul{margin-bottom: 80px;}
 
+
+@media screen and (max-width:1000px;) and (min-width:360px;)
+    {
+            li{font-size:18px ;}
+}
