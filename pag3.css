@@ -41,9 +41,10 @@ a{text-decoration: none;
      footer{background-color: transparent;
         text-align: center;
         padding: 5px;
-      
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
         
-        justify-content: center;
         margin: 5px;
         
       }
@@ -91,9 +92,5 @@ ul{margin-bottom: 80px;}
     font-size: 16px;
   }
 
-  footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+ 
 }
