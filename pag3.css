@@ -37,7 +37,7 @@ a{text-decoration: none;
   
   
     } 
-     /*
+     
      footer{background-color: transparent;
         text-align: center;
         padding: 5px;
@@ -49,21 +49,21 @@ a{text-decoration: none;
         margin: 5px;
         flex-grow: 1;
       }
-      */
-
+      
+      /*
       footer {
         
         display:flex;
-        grid-template-columns: repeat(2, 1fr); /* duas colunas */
+        grid-template-columns: repeat(2, 1fr);
         gap: 10px;
         justify-content: center;
         padding: 10px;}
       
       footer a {
-        width:60px; /* ocupa toda a célula da grade */
+        width:60px; 
       
       }
-
+      */
 
 
     a:hover{background-color: rgb(228, 182, 98);
