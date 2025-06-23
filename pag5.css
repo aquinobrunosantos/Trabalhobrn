@@ -134,9 +134,69 @@ h1{text-align: center;
   
 main{width:100vw;
      height: 100vh;  
-     border: 1 solid red;
+    
      display: flex; 
      flex-direction: column;   
      justify-content: space-between;  
       align-items: center;   
      column-gap:0px;     } 
+
+     @media (max-width: 768px) {
+      .container {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 10px;
+        gap: 30px;
+        margin-top: 0;
+      }
+    
+      .conteudo, .imagem {
+        flex: 1 1 100%;
+        max-width: 90%;
+      }
+    
+      .conteudo p {
+        font-size: 18px;
+        padding: 10px;
+        text-align: justify;
+      }
+    
+      h1 {
+        font-size: 28px;
+        padding: 0 10px;
+      }
+    
+      h2 {
+        font-size: 32px;
+      }
+    
+      footer a {
+        flex: 0 0 45%;
+        max-width: 45%;
+        margin: 5px auto;
+      }
+    
+      footer {
+        padding: 10px 5px;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 22px;
+      }
+    
+      h2 {
+        font-size: 26px;
+      }
+    
+      .conteudo p {
+        font-size: 16px;
+      }
+    
+      footer a {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+    }
+    
