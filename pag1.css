@@ -7,7 +7,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Bebas+Neue&family=Changa+One:ital@0;1&family=Chango&family=Freckle+Face&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&family=Playwrite+HU:wght@100..400&family=Pochaevsk&display=swap');
 
 
-body{background-image: url('Imagens/what.jpeg');} /*rgba(243, 225, 196, 0.63)*/
+body{background-image: url('Imagens/what.jpeg');
+     height: 100vh; } /*rgba(243, 225, 196, 0.63)*/
 h1{
     font-size: 80px;
     font-family: "Montserrat", sans-serif;
@@ -26,15 +27,20 @@ h1{
  a{text-decoration: none;
    font-size:20px ; 
     color: rgb(240, 159, 132);
-    display: inline-block;
+    
     text-align: center;
     margin-left: 15px;
     background-color: rgba(222, 184, 135, 0.582);
     border-radius:15px ;
     padding: 10px;
-    width: 80px;
-    height: 20px;}           
+    width: 100px;
+    height: 30px;}          
 
+  footer{width: 100%;
+          display: flex;
+          justify-content:center;
+          align-items: center;
+          gap: 5px;}
     
 .cap{
       animation: flutuação 13s
@@ -64,8 +70,8 @@ h1{
 
  .estetica p {font-size: 30px;
               color: #f7a757;   }   
-main{width: 100vw;
-    height:100vh; 
+main{width: 100%;
+    height:100%; 
     display:flex ;
      justify-content: space-around;  
     align-items: center;   
