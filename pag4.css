@@ -121,6 +121,10 @@ a:hover{background-color: rgb(228, 182, 98);
                   gap: 10px;    
                   margin-top: -37px;   } 
 
+.imagem-container p{font-size: 18px;
+                    color: #716050;
+                    font-weight: 700;}
+
  .conforto{display: flex;
            justify-content: space-evenly;
            align-items: center; 
