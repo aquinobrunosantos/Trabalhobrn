@@ -87,15 +87,16 @@ a:hover{background-color: rgb(228, 182, 98);
          }
  .texto p{margin-bottom: 20px;}           
  
-.textprincipal{width: 100%;
-               display: flex; 
-               align-items: center;
-               justify-content: center; /* melhor que flex-start em telas pequenas */
-                margin: 20px 0; 
-               /*
-               justify-content: flex-start; 
-                margin-top: -51px; */
-                margin-left: 100px;}
+ .textprincipal {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  margin-top: 20px 0;
+  box-sizing: border-box;
+}
+
 
                 .cap,
                 .casa1 img,
