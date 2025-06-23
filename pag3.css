@@ -5,11 +5,10 @@
 }
 
 
-
 main{max-width: 100%;
     height: auto;
     display:flex ;
-     justify-content: space-around;  
+     justify-content: space-between;  
     align-items: center;   
     flex-direction: column;
     gap:50px;}
@@ -87,7 +86,7 @@ a{text-decoration: none;
        font-family: 'milks'; 
        color: #c2933b; 
        text-shadow: 2px 2px 2px black;
-        }    
+        margin-top: -10px;}    
        
 li{text-shadow: 1px 1px  black;}
 

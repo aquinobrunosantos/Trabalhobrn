@@ -30,7 +30,7 @@ a{text-decoration: none;
      border-radius:15px ;
      padding: 10px;
      width: 80px;
-        height: 20px;} 
+        height: 10px;} 
     
         footer{background-color: transparent;
                 
@@ -76,7 +76,7 @@ div{max-width: 600px;
     text-shadow: 2px 2px 2px black;
     margin-top: 10px;}   
     
+.conteudo{margin-top: -70px;}    
     
     
-    
-    /*#d4bd92cc*/
+  
