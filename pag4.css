@@ -87,14 +87,15 @@ a:hover{background-color: rgb(228, 182, 98);
          }
  .texto p{margin-bottom: 20px;}           
  
- .textprincipal {
+.textprincipal {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   padding: 0 20px;
-  margin-top: 20px 0;
+  margin-bottom: 80px;
   box-sizing: border-box;
+  margin-left: 100px;
 }
 
 
