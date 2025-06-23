@@ -1,18 +1,26 @@
 @charset "UTF-8";
+*{margin: 0;
+  padding: 0;  }
+
 body {
-    background-color: rgb(255, 234, 209);
+    background-image:url('Imagens/Captura2.png') ;
     display: flex;
     flex-direction: column;
     align-items: center;
     }
   
     main{display: flex;
-        justify-content: center;
+         flex-direction: column;   
+        justify-content: space-evenly;
         align-items: center;
-        border-radius: 20px;}
+        border-radius: 20px;
+        width: 100vw;
+        height: 100vh;}
 
 
- 
+        H1{font-size: 80px;
+           color: #F3D6A2;
+           text-shadow: 1px 1px 1px black;  }
 
 
         a {
@@ -25,7 +33,7 @@ body {
             border-radius: 15px;
             padding: 10px;
             width: 100px;
-            height: 30px;}
+            height: 10px;}
           
           a:hover {
             background-color: rgb(228, 182, 98);
@@ -43,7 +51,49 @@ body {
 
 
 
-
+          @media (max-width: 768px) {
+            main {
+              padding: 20px;
+              height: auto;
+            }
+          
+            h1 {
+              font-size: 48px;
+              text-align: center;
+            }
+          
+            video {
+              width: 100%;
+              max-width: 90%;
+            }
+          
+            a {
+              width: 42%;
+              font-size: 16px;
+              padding: 8px;
+              margin: 6px;
+            }
+          
+            footer {
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: center;
+              gap: 10px;
+            }
+          }
+          
+          @media (max-width: 480px) {
+            h1 {
+              font-size: 32px;
+            }
+          
+            a {
+              width: 80%;
+              font-size: 14px;
+              padding: 6px;
+            }
+          }
+          
 
 
 
